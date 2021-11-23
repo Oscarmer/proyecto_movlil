@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardCornerRadius">5dp</dimen>
+    <dimen name="cardElevation">5dp</dimen>
+    <dimen name="cardLayoutMargin">5dp</dimen>
+    <dimen name="defaultLayoutMargin">5dp</dimen>
+    <dimen name="logoHeight">320dp</dimen>
+    <dimen name="textSizeContent">18dp</dimen>
+    <dimen name="ItemCommentsUser">18dp</dimen>
+    <dimen name="ItemCommentsScore">18dp</dimen>
+    <dimen name="ItemCommentsComments">18dp</dimen>
+    <dimen name="ItemCommentsComment">20dp</dimen>
+</resources>
