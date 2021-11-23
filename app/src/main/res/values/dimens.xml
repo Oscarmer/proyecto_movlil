@@ -10,4 +10,16 @@
     <dimen name="ItemCommentsScore">18dp</dimen>
     <dimen name="ItemCommentsComments">18dp</dimen>
     <dimen name="ItemCommentsComment">20dp</dimen>
+    <dimen name="top">45dp</dimen>
+    <dimen name="heightImageProduct">50dp</dimen>
+    <dimen name="sizeNameProduct">20dp</dimen>
+    <dimen name="sizePriceProduct">16dp</dimen>
+    <dimen name="imageProductCar">50dp</dimen>
+    <dimen name="sizeTitlePerf">20dp</dimen>
+    <dimen name="imagePerf">50dp</dimen>
+    <dimen name="sizeTextName">18dp</dimen>
+    <dimen name="sizeTextAddress">18dp</dimen>
+    <dimen name="sizeTextNumber">18dp</dimen>
+    <dimen name="sizeTextEmail">18dp</dimen>
+    <dimen name="ibHeight">100dp</dimen>
 </resources>

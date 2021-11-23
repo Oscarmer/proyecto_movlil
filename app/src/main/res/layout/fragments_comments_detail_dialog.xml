@@ -4,6 +4,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/Top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top"
+        android:gravity="center|top"
+        android:text=""
+        android:background="@color/primaryColor"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="@dimen/ItemCommentsComment" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -41,8 +51,5 @@
             android:textColor="@color/primaryTextColor"
             android:layout_marginTop="10dp"/>
 
-
-
     </LinearLayout>
-
 </LinearLayout>
