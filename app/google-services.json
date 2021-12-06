@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "24680296449",
+    "project_id": "appmecstore-87648",
+    "storage_bucket": "appmecstore-87648.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24680296449:android:b1636222145cb419b0d000",
+        "android_client_info": {
+          "package_name": "com.oscar.appmecstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24680296449-19170sko9o7c9l48qu8ejl86f3r10np7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oscar.appmecstore",
+            "certificate_hash": "5a6d7e24085c9194e2f049aa2aa3e8e623e88b8c"
+          }
+        },
+        {
+          "client_id": "24680296449-0vjol37tq76p2grc771866bkiqtnonik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHHyvPwXQf-E2doHTyFkGYegiOcP9DQ2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24680296449-0vjol37tq76p2grc771866bkiqtnonik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
