@@ -4,6 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/fondo_app"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".view.ui.activities.LoginActivity">
@@ -21,6 +22,16 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="20sp"
+                    android:text="Productos"
+                    android:gravity="center"
+                    />
+
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -30,72 +41,73 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:background="@drawable/fondo_label"
                         android:orientation="vertical">
 
-                        <ImageButton
-                            android:id="@+id/ibPhotoAdmin"
-                            android:layout_width="wrap_content"
-                            android:layout_height="@dimen/ibHeight"
-                            android:src="@mipmap/ic_launcher"
-                            android:layout_gravity="center_horizontal"/>
 
-                        <EditText
-                            android:id="@+id/etNameAdmin"
+                        <TextView
+                            android:id="@+id/prod1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/defaultLayoutMargin"
-                            android:hint="@string/hintUsName"
-                            android:inputType="textMultiLine"
-                            android:gravity="center_horizontal"/>
-
-                        <EditText
-                            android:id="@+id/Email"
+                            android:layout_margin="10dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:background="@drawable/border_prod"
+                            android:drawableTop="@mipmap/ic_llanta"
+                            android:text="Llanta"
+                            android:gravity="center"
+                            />
+                        <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/defaultLayoutMargin"
-                            android:hint="@string/hintEmail"
-                            android:inputType="textEmailAddress"
-                            android:gravity="center_horizontal"/>
+                            android:layout_margin="10dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:background="@drawable/border_prod"
+                            android:drawableTop="@mipmap/ic_gato"
+                            android:text="Gato hidraulico"
+                            android:gravity="center"
 
-                        <EditText
-                            android:id="@+id/Password"
+                            />
+                        <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/defaultLayoutMargin"
-                            android:hint="@string/hintPassword"
-                            android:inputType="textPassword"
-                            android:gravity="center_horizontal"/>
+                            android:layout_margin="10dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:background="@drawable/border_prod"
+                            android:drawableTop="@mipmap/ic_amo"
+                            android:text="Amortiguador"
+                            android:gravity="center"
 
-                        <EditText
-                            android:id="@+id/ComfirmPasword"
+                            />
+                        <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/defaultLayoutMargin"
-                            android:hint="@string/hintComfirmPasword"
-                            android:inputType="textPassword"
-                            android:gravity="center_horizontal"/>
+                            android:layout_margin="10dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:background="@drawable/border_prod"
+                            android:drawableTop="@mipmap/ic_para"
+                            android:text="Parabrisas"
+                            android:gravity="center"
 
-                        <Button
-                            android:id="@+id/buyBottom"
+                            />
+
+                        <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="8dp"
-                            android:layout_marginEnd="24dp"
-                            android:layout_marginStart="24dp"
-                            android:layout_marginTop="8dp"
-                            android:text="@string/buy"
-                            app:layout_constraintBottom_toTopOf="@+id/navigate_action_button"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintHorizontal_bias="0.5"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/text"
-                            app:layout_constraintVertical_bias="0.594" />
+                            android:layout_margin="10dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:background="@drawable/border_prod"
+                            android:drawableTop="@mipmap/ic_llave"
+                            android:text="Llave inglesa"
+                            android:gravity="center"
+                            />
 
                     </LinearLayout>
+
                 </androidx.cardview.widget.CardView>
 
             </LinearLayout>
         </ScrollView>
     </FrameLayout>
+
 
 </FrameLayout>

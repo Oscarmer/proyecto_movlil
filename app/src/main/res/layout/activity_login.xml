@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
-    android:id="@+id/sign_in_container"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.ui.activities.LoginActivity">
-
+    android:background="@drawable/fondo_app"
+    tools:context=".view.ui.activities.LoginActivity"
+    android:padding="25dp"
+    android:orientation="vertical">
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="?attr/actionBarSize">
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:orientation="vertical">
 
                 <androidx.cardview.widget.CardView
@@ -30,51 +30,52 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:background="@drawable/fondo_label"
                         android:orientation="vertical">
 
                         <ImageButton
                             android:id="@+id/ibPhotoAdmin"
                             android:layout_width="wrap_content"
                             android:layout_height="@dimen/ibHeight"
-                            android:src="@mipmap/ic_launcher"
+                            android:src="@mipmap/ic_account"
+                            android:layout_margin="10dp"
                             android:layout_gravity="center_horizontal"/>
 
-                        <EditText
-                            android:id="@+id/etNameAdmin"
+                        <TextView
+                            android:id="@+id/android_text"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/defaultLayoutMargin"
-                            android:hint="@string/hintUsName"
-                            android:inputType="textMultiLine"
-                            android:gravity="center_horizontal"/>
+                            android:text="Bienvenidos a mecanicstore ingresa o registrate para continuar"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:layout_margin="12dp"
+                            android:textColor="@color/primaryTextColor"/>
 
-                        <EditText
-                            android:id="@+id/Email"
+                        <com.google.android.material.textfield.TextInputLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/defaultLayoutMargin"
-                            android:hint="@string/hintEmail"
-                            android:inputType="textEmailAddress"
-                            android:gravity="center_horizontal"/>
+                            android:layout_margin="12dp"
+                            android:hint="Email"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textEmailAddress"
+                                />
+                        </com.google.android.material.textfield.TextInputLayout>
 
-                        <EditText
-                            android:id="@+id/Password"
+                        <com.google.android.material.textfield.TextInputLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/defaultLayoutMargin"
-                            android:hint="@string/hintPassword"
-                            android:inputType="textPassword"
-                            android:gravity="center_horizontal"/>
-
-                        <EditText
-                            android:id="@+id/ComfirmPasword"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/defaultLayoutMargin"
-                            android:hint="@string/hintComfirmPasword"
-                            android:inputType="textPassword"
-                            android:gravity="center_horizontal"/>
-
+                            android:layout_margin="12dp"
+                            android:hint="Contraseña"
+                            app:passwordToggleEnabled="true"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textPassword"/>
+                        </com.google.android.material.textfield.TextInputLayout>
                         <Button
                             android:id="@+id/boton1"
                             android:layout_width="match_parent"
@@ -90,6 +91,21 @@
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/text"
                             app:layout_constraintVertical_bias="0.594" />
+                        <Button
+                            android:id="@+id/signbot"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginEnd="24dp"
+                            android:layout_marginStart="24dp"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/signup"
+                            app:layout_constraintBottom_toTopOf="@+id/navigate_action_button"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/text"
+                            app:layout_constraintVertical_bias="0.594" />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -97,5 +113,6 @@
             </LinearLayout>
         </ScrollView>
     </FrameLayout>
+
 
 </FrameLayout>

@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo_app"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".view.ui.fragments.AdminFragment">
 
@@ -25,6 +26,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/fondo_label"
                     android:orientation="vertical">
 
                     <TextView
@@ -42,13 +44,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/adminPhoto"
                         android:layout_margin="@dimen/defaultLayoutMargin"
-                        android:src="@mipmap/ic_launcher" />
+                        android:src="@mipmap/ic_account" />
 
                     <TextView
                         android:id="@+id/tvNameAdmin"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Nombre"
+                        android:text="Oscarmego"
                         android:textSize="@dimen/textSizeAdmin"
                         android:textColor="@color/primaryTextColor"
                         android:gravity="center_horizontal"
@@ -58,7 +60,7 @@
                         android:id="@+id/tvAddressAdmin"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Dirección"
+                        android:text="calle 13 #24"
                         android:textSize="@dimen/textSizeAdmin"
                         android:textColor="@color/primaryTextColor"
                         android:gravity="center_horizontal"
@@ -68,7 +70,7 @@
                         android:id="@+id/tvPhoneAdmin"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Teléfono"
+                        android:text="320781"
                         android:textSize="@dimen/textSizeAdmin"
                         android:textColor="@color/primaryTextColor"
                         android:gravity="center_horizontal"
@@ -78,12 +80,12 @@
                         android:id="@+id/tvMailAdmin"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Correo"
+                        android:text="oscarmegodmg2002@gmail.com"
                         android:textSize="@dimen/textSizeAdmin"
                         android:textColor="@color/primaryTextColor"
                         android:gravity="center_horizontal"
                         android:layout_marginTop="@dimen/defaultLayoutMargin"/>
-                    <!--Primer paso, se añade el elemento de boton-->
+
                     <Button
                         android:id="@+id/navigate_edition"
                         android:layout_width="match_parent"
@@ -93,6 +95,21 @@
                         android:layout_marginStart="24dp"
                         android:layout_marginTop="8dp"
                         android:text="@string/navigate_edit"
+                        app:layout_constraintBottom_toTopOf="@+id/navigate_action_button"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/text"
+                        app:layout_constraintVertical_bias="0.594" />
+                    <Button
+                        android:id="@+id/close"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/navigate_close"
                         app:layout_constraintBottom_toTopOf="@+id/navigate_action_button"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.5"

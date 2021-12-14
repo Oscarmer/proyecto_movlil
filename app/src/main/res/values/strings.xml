@@ -1,23 +1,23 @@
 <resources>
-    <string name="app_name">mecanicdef</string>
+    <string name="app_name">StoreApp</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintPassword">Contraseña</string>
+    <string name="login">Ingresar</string>
+    <string name="signup">Registrarse</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="textHome">Home</string>
-    <string name="textTitleComments">Comentarios</string>
-    <string name="hintComment">"Danos tu opinión "</string>
-    <string name="btSaveComment">Publicar</string>
-    <string name="btBuyProduct">Agregar al carrito</string>
-    <string name="textTitleAdmin">Cuenta</string>
-    <string name="navigate_edit">Actualizar</string>
+    <string name="textHome">Empresa colombiana con el objetivo de enlazar usuarios, vendedores y grandes almacenes de repuestos para vehículos y así generar un e-commerce que permita ubicar y ofrecer los productos con mayor venta, mejores precios y de excelente calidad.</string>
+    <string name="hintname">Nombre</string>
+    <string name="hintphone">Numero telefonico</string>
+    <string name="hintaddf">Email</string>
+    <string name="hintComfirmPasword">Confirmar contraseña</string>
+    <string name="textTitleAdmin">Mi cuenta</string>
+    <string name="navigate_edit">Actualizar datos</string>
+    <string name="navigate_close">Cerrar sesión</string>
+    <string name="name">Hola esyaa es la imagen</string>
     <string name="hintName">Nombre</string>
     <string name="hintAddress">Direccion</string>
     <string name="hintPhone">Numero telefonico</string>
     <string name="hintMail">Email</string>
-    <string name="btSaveAdmin">Guardar cambios</string>
-    <string name="hintUsName">Nombre</string>
-    <string name="hintEmail">Correo</string>
-    <string name="hintPassword">Contraseña</string>
-    <string name="hintComfirmPasword">Confirmar contraseña</string>
-    <string name="login">Ingresar</string>
-    <string name="buy">Comprar</string>
+    <string name="btSaveAdmin">Guardar</string>
 </resources>
